@@ -1,0 +1,10 @@
+CREATE SCHEMA `marketplace`;
+
+CREATE TABLE `marketplace`.`user` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(45) NOT NULL,
+  `city` VARCHAR(20) NULL,
+  `dob` DATETIME NULL,
+  PRIMARY KEY (`id`));
+  
+ 
